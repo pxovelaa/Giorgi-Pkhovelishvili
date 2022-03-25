@@ -147,7 +147,6 @@ a:hover {
     margin-bottom: 5px;
     margin-top: 25px;
     font-size: 29px;
-
 }
 
 .grad::before {
@@ -167,6 +166,16 @@ a:hover {
         linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
     mask-composite: exclude;
+}
+
+.centered {
+    display: flex;
+    width: 201px;
+    justify-content: space-between;
+    align-content: center;
+    align-items: stretch;
+    margin: 0 auto;
+    margin-top: 25px;
 }
 
 .arrow {
