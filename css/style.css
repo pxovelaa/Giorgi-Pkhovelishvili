@@ -169,6 +169,11 @@ a:hover {
     mask-composite: exclude;
 }
 
+.arrow {
+    margin-left: 10px;
+}
+
 .vector {
     margin-top: 100px;
 }
+
